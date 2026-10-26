@@ -1,0 +1,18 @@
+# Option 1 (online): one Render web service. The React app is pre-built in frontend/dist,
+# so Render only installs Python packages. Set PORTKEY_API_KEY in the Render dashboard.
+# Free instances sleep and their disk resets on restart: the demo data is re-seeded on every start.
+services:
+  - type: web
+    name: rentrail
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --app-dir backend --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: PORTKEY_API_KEY
+        sync: false
+      - key: RENTRAIL_SEED_DEMO
+        value: "1"

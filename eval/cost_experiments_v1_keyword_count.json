@@ -1,0 +1,127 @@
+{
+  "model": "gpt-6-luna",
+  "date": "2026-10-20T16:32:38+00:00",
+  "lease": [
+    {
+      "doc": "sample (4 pages)",
+      "variant": "sample-selected",
+      "pages_sent": 4,
+      "page_count": 4,
+      "chars_sent": 7611,
+      "chars_total": 7548,
+      "input_tokens": 3029,
+      "output_tokens": 5191,
+      "cost_usd": 0.0028,
+      "seconds": 48.4,
+      "clauses": 17,
+      "red_flags": 6,
+      "fields": {
+        "lease_start": "2026-08-01",
+        "lease_end": "2027-07-31",
+        "monthly_rent": 2150.0,
+        "security_deposit": 4300.0,
+        "inventory_form_hours": 48,
+        "move_out_notice_days": 60,
+        "auto_renews": true,
+        "sublet_requires_consent": true,
+        "insurance_min_liability": 100000.0
+      }
+    },
+    {
+      "doc": "real lease (private)",
+      "variant": "real-selected (default)",
+      "pages_sent": 10,
+      "page_count": 58,
+      "chars_sent": 59845,
+      "chars_total": 229093,
+      "input_tokens": 15512,
+      "output_tokens": 6705,
+      "cost_usd": 0.00481,
+      "seconds": 90.7,
+      "clauses": 17,
+      "red_flags": 5,
+      "fields": {
+        "lease_start": "found",
+        "lease_end": "found",
+        "monthly_rent": "found",
+        "security_deposit": "found",
+        "inventory_form_hours": null,
+        "move_out_notice_days": "found",
+        "auto_renews": "found",
+        "sublet_requires_consent": "found",
+        "insurance_min_liability": "found"
+      }
+    },
+    {
+      "doc": "real lease (private)",
+      "variant": "real-all-pages",
+      "pages_sent": 10,
+      "page_count": 58,
+      "chars_sent": 59845,
+      "chars_total": 229093,
+      "input_tokens": 15512,
+      "output_tokens": 6705,
+      "cost_usd": 0.00481,
+      "seconds": 35.7,
+      "clauses": 17,
+      "red_flags": 5,
+      "fields": {
+        "lease_start": "found",
+        "lease_end": "found",
+        "monthly_rent": "found",
+        "security_deposit": "found",
+        "inventory_form_hours": null,
+        "move_out_notice_days": "found",
+        "auto_renews": "found",
+        "sublet_requires_consent": "found",
+        "insurance_min_liability": "found"
+      }
+    }
+  ],
+  "video": [
+    {
+      "max_frames": 3,
+      "frames_sent": 3,
+      "input_tokens": 3199,
+      "output_tokens": 359,
+      "cost_usd": 0.0005,
+      "seconds": 6.6,
+      "crack_found": true,
+      "findings": 1,
+      "false_alarms": 0
+    },
+    {
+      "max_frames": 6,
+      "frames_sent": 6,
+      "input_tokens": 5317,
+      "output_tokens": 509,
+      "cost_usd": 0.00079,
+      "seconds": 9.0,
+      "crack_found": true,
+      "findings": 1,
+      "false_alarms": 0
+    },
+    {
+      "max_frames": 12,
+      "frames_sent": 10,
+      "input_tokens": 8141,
+      "output_tokens": 623,
+      "cost_usd": 0.00113,
+      "seconds": 9.7,
+      "crack_found": true,
+      "findings": 1,
+      "false_alarms": 0
+    }
+  ],
+  "lease_field_agreement": {
+    "lease_start": true,
+    "lease_end": true,
+    "monthly_rent": true,
+    "security_deposit": true,
+    "inventory_form_hours": true,
+    "move_out_notice_days": true,
+    "auto_renews": true,
+    "sublet_requires_consent": true,
+    "insurance_min_liability": true
+  }
+}

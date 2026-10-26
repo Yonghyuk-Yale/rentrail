@@ -1,0 +1,21 @@
+{
+  "version": "2026-10-22",
+  "note_en": "Rough planning ranges in USD for a small apartment repair (labor + materials), not quotes. Landlord charge = what a deduction for this repair typically looks like; DIY = materials only. Adjust with a real quote.",
+  "note_ko": "소형 아파트 수리의 대략적인 계획용 금액(USD, 인건비+자재)이며 견적이 아닙니다. 집주인 청구 = 이 수리로 흔히 공제되는 금액, 직접 수리 = 자재비만. 실제 견적으로 조정하세요.",
+  "items": {
+    "wall_small_hole_or_chip": {"en": "Small wall chip / nail hole", "ko": "벽 작은 찍힘·못 구멍", "charge": [75, 200], "diy_cost": 12, "diy_minutes": 30, "difficulty": "easy", "pro": [90, 180]},
+    "wall_large_hole": {"en": "Large wall hole (drywall patch)", "ko": "벽 큰 구멍 (석고보드 보수)", "charge": [150, 400], "diy_cost": 25, "diy_minutes": 120, "difficulty": "medium", "pro": [150, 350]},
+    "wall_crack": {"en": "Wall crack (tape + compound + paint)", "ko": "벽 균열 (테이프·퍼티·도색)", "charge": [150, 350], "diy_cost": 20, "diy_minutes": 90, "difficulty": "medium", "pro": [150, 300]},
+    "paint_scuff": {"en": "Scuffs / marks on paint", "ko": "벽 페인트 긁힘·자국", "charge": [50, 150], "diy_cost": 8, "diy_minutes": 15, "difficulty": "easy", "pro": [75, 150]},
+    "floor_scratch": {"en": "Light floor scratch", "ko": "바닥 가벼운 긁힘", "charge": [75, 250], "diy_cost": 15, "diy_minutes": 20, "difficulty": "easy", "pro": [100, 200]},
+    "floor_gouge": {"en": "Deep floor gouge", "ko": "바닥 깊은 패임", "charge": [200, 600], "diy_cost": 25, "diy_minutes": 60, "difficulty": "medium", "pro": [150, 400]},
+    "carpet_stain": {"en": "Carpet stain", "ko": "카펫 얼룩", "charge": [75, 200], "diy_cost": 15, "diy_minutes": 30, "difficulty": "easy", "pro": [100, 200]},
+    "carpet_burn_or_tear": {"en": "Carpet burn / tear", "ko": "카펫 탄 자국·찢어짐", "charge": [150, 500], "diy_cost": null, "diy_minutes": null, "difficulty": "pro", "pro": [100, 250]},
+    "door_damage": {"en": "Door dent / hinge", "ko": "문 찍힘·경첩", "charge": [150, 450], "diy_cost": 20, "diy_minutes": 45, "difficulty": "medium", "pro": [150, 350]},
+    "fixture_broken": {"en": "Broken fixture (handle, cover, bulb, blind)", "ko": "부속품 파손 (손잡이·커버·전구·블라인드)", "charge": [50, 250], "diy_cost": 20, "diy_minutes": 30, "difficulty": "easy", "pro": [100, 250]},
+    "appliance_damage": {"en": "Appliance damage", "ko": "가전 손상", "charge": [100, 600], "diy_cost": null, "diy_minutes": null, "difficulty": "pro", "pro": [150, 400]},
+    "window_or_screen": {"en": "Window screen / blind", "ko": "방충망·창문", "charge": [50, 250], "diy_cost": 25, "diy_minutes": 45, "difficulty": "medium", "pro": [75, 200]},
+    "cleaning": {"en": "Cleaning needed", "ko": "청소 필요", "charge": [100, 300], "diy_cost": 15, "diy_minutes": 180, "difficulty": "easy", "pro": [150, 300]},
+    "other": {"en": "Other repair", "ko": "기타 수리", "charge": [100, 400], "diy_cost": null, "diy_minutes": null, "difficulty": "pro", "pro": [100, 300]}
+  }
+}

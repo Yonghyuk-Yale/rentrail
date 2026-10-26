@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# runtime data: database, encrypted uploads, local encryption key
+instance/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node (the built app in frontend/dist IS committed, so no Node is needed to run it)
+frontend/node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
